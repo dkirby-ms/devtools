@@ -3,11 +3,12 @@ Misc tools to make dev easier for me
 
 # Usage
  
+* chmod +x the scripts
 
-* In a bash shell run the following:
+* Run:
 
   ```shell
-  sudo ./bootstrap-docker-wsl2.sh
+  ./bootstrap-docker-wsl2.sh
   ```
 
 * Restart WSL2 terminal
@@ -15,6 +16,6 @@ Misc tools to make dev easier for me
 * Run:
 
   ```shell
-  sudo ./bootstrap-minikube.sh
+  ./bootstrap-minikube.sh
   ```
   
