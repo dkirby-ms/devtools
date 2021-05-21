@@ -52,7 +52,7 @@ echo "=========================================="
 tee -a /home/$USER/.profile > /dev/null <<'EOF'
 
 # dockerd launch script
-DOCKER_DISTRO="Ubuntu"
+DOCKER_DISTRO=$WSL_DISTRO_NAME
 DOCKER_DIR=/mnt/wsl/shared-docker
 DOCKER_SOCK="$DOCKER_DIR/docker.sock"
 export DOCKER_HOST="unix://$DOCKER_SOCK"
