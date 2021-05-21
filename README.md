@@ -2,7 +2,9 @@
 Misc tools to make dev easier for me
 
 # Usage
-* On new WSL2 Ubuntu install run
+ 
+
+* In a bash shell run the following:
 
   ```shell
   sudo ./bootstrap-docker-wsl2.sh
@@ -10,7 +12,7 @@ Misc tools to make dev easier for me
 
 * Restart WSL2 terminal
 
-* Run
+* Run:
 
   ```shell
   sudo ./bootstrap-minikube.sh
