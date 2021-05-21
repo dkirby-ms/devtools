@@ -49,7 +49,7 @@ EOF
 echo "=========================================="
 echo "Updating .profile to run dockerd on login"
 echo "=========================================="
-tee -a ~/.profile > /dev/null <<'EOF'
+tee -a /home/$USER/.profile > /dev/null <<'EOF'
 
 # dockerd launch script
 DOCKER_DISTRO="Ubuntu"
