@@ -62,3 +62,8 @@ if [ ! -S "$DOCKER_SOCK" ]; then
     /mnt/c/Windows/System32/wsl.exe -d $DOCKER_DISTRO sh -c "nohup sudo -b dockerd < /dev/null > $DOCKER_DIR/dockerd.log 2>&1"
 fi
 EOF
+
+echo "=========================================="
+echo "Starting docker"
+echo "=========================================="
+sudo dockerd &
