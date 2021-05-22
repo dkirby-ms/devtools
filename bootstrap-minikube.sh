@@ -9,6 +9,12 @@ echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https:/
 sudo apt-get update
 sudo apt-get install -y kubectl
 
+# Install helm
+echo "=========================================="
+echo "Installing helm"
+echo "=========================================="
+curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+
 # Install minikube
 echo "=========================================="
 echo "Installing minikube"
