@@ -1,5 +1,5 @@
 # devtools
-Misc tools to make dev easier for me
+Misc tools
 
 # Usage
  
